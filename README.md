@@ -1,2 +1,2 @@
-# PRODIGY_WD_01
-PRODIGY Internship
+# PRODIGY_WD_02
+
