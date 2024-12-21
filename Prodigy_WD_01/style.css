@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(0, 6%, 97%);
+    color: #050505;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fc782c;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fffbfb;
+    font-style: oblique;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.search i {
+    font-size: 1.2rem;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* Heading Section */
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(45deg, #574010, #ff5722);
+    color: white;
+    text-align: left;
+}
+
+.left {
+    max-width: 50%;
+}
+
+.left h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+.left p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.left button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #ff7433;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.left button:hover {
+    background-color: #ffe0b2;
+}
+
+.right img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Social Media Section */
+.social-media {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.social-media i {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.social-media i:hover {
+    transform: scale(1.2);
+    color: #fab803;
+}
+
+/* Menu Section */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff3e0;
+}
+
+.menu div {
+    text-align: center;
+    max-width: 200px;
+}
+
+.menu img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff5733;
+    color: white;
+    font-size: 0.9rem;
+}
